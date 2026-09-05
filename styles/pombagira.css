@@ -89,19 +89,9 @@ body {
   display: block;
 }
 
-.pombagira-item__name {
-  font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: 1.6rem;
-  margin-top: var(--space-sm);
-  color: var(--pombagira-text);
-}
-
 /* ---- Botón de reproducción ---- */
 .play-btn {
-  position: absolute;
-  bottom: var(--space-sm);
-  right: var(--space-sm);
+  margin-top: var(--space-sm);
   width: 56px;
   height: 56px;
   border: none;
