@@ -1,0 +1,45 @@
+/* ===========================================
+   Variables globales — Portal De Lúa
+   Paleta cálida y serena: tonos tierra, verdes suaves, beige.
+   Reutilizar estas variables en todas las secciones del sitio.
+   =========================================== */
+
+:root {
+  /* Colores base */
+  --color-bg: #FAF7F2;              /* blanco roto, fondo general */
+  --color-bg-alt: #F1ECE3;          /* beige suave, para bloques alternos */
+  --color-text: #3A3630;            /* texto principal, marrón oscuro cálido */
+  --color-text-soft: #6B6459;       /* texto secundario, gris tierra */
+
+  /* Colores de acento */
+  --color-primary: #7A8B6F;         /* verde salvia, botones y acentos principales */
+  --color-primary-dark: #5F6E56;    /* verde salvia oscuro, hover */
+  --color-secondary: #C9A66B;       /* dorado tierra, detalles cálidos */
+  --color-accent: #E8DCC8;          /* beige claro, fondos de tarjetas */
+
+  --color-white: #FFFFFF;
+
+  /* Tipografía */
+  --font-heading: 'Cormorant Garamond', 'Georgia', serif;
+  --font-body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
+
+  --fs-hero-title: clamp(2.2rem, 5vw, 3.8rem);
+  --fs-hero-subtitle: clamp(1.1rem, 2vw, 1.4rem);
+  --fs-body: 1rem;
+  --fs-button: 1rem;
+
+  /* Espaciado */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+
+  /* Bordes y sombras */
+  --radius-md: 12px;
+  --radius-full: 999px;
+  --shadow-soft: 0 8px 24px rgba(58, 54, 48, 0.08);
+
+  /* Transiciones */
+  --transition-base: 0.3s ease;
+}
