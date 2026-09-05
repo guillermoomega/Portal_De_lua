@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal De Lúa — Pombagira</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Variables globales del sitio -->
+  <link rel="stylesheet" href="styles/variables.css">
+  <!-- Estilos propios de esta sección -->
+  <link rel="stylesheet" href="styles/pombagira.css">
+</head>
+<body>
+
+  <!-- ===========================================
+       SECCIÓN: Pombagira
+       Imágenes apiladas una detrás de otra:
+       hero pombagira, maria_mulambo, rosa_caveira, cigana, siete_saias.
+       Autocontenida: puede visualizarse sola, sin el resto de las secciones.
+       =========================================== -->
+  <section class="pombagira" id="pombagira">
+
+    <!-- Hero de la sección (sin audio) -->
+    <div class="pombagira__hero">
+      <img src="img/hero_pombagira.jpg" alt="Pombagira" class="pombagira__hero-img">
+      <div class="pombagira__hero-overlay"></div>
+    </div>
+
+    <!-- Bloques de imagen + audio -->
+    <div class="pombagira__list">
+
+      <article class="pombagira-item">
+        <div class="pombagira-item__media">
+          <img src="img/maria_mulambo.jpg" alt="Maria Mulambo" class="pombagira-item__img">
+          <button
+            class="play-btn"
+            type="button"
+            data-audio="maria_mulambo"
+            aria-pressed="false"
+            aria-label="Reproducir punto de Maria Mulambo">
+            <svg class="play-btn__icon play-btn__icon--play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            <svg class="play-btn__icon play-btn__icon--pause" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <h2 class="pombagira-item__name">Maria Mulambo</h2>
+        <audio id="audio-maria_mulambo" src="audio/maria_mulambo.mp3" preload="none"></audio>
+      </article>
+
+      <article class="pombagira-item">
+        <div class="pombagira-item__media">
+          <img src="img/rosa_caveira.jpg" alt="Rosa Caveira" class="pombagira-item__img">
+          <button
+            class="play-btn"
+            type="button"
+            data-audio="rosa_caveira"
+            aria-pressed="false"
+            aria-label="Reproducir punto de Rosa Caveira">
+            <svg class="play-btn__icon play-btn__icon--play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            <svg class="play-btn__icon play-btn__icon--pause" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <h2 class="pombagira-item__name">Rosa Caveira</h2>
+        <audio id="audio-rosa_caveira" src="audio/rosa_caveira.mp3" preload="none"></audio>
+      </article>
+
+      <article class="pombagira-item">
+        <div class="pombagira-item__media">
+          <img src="img/cigana.jpg" alt="Cigana" class="pombagira-item__img">
+          <button
+            class="play-btn"
+            type="button"
+            data-audio="cigana"
+            aria-pressed="false"
+            aria-label="Reproducir punto de Cigana">
+            <svg class="play-btn__icon play-btn__icon--play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            <svg class="play-btn__icon play-btn__icon--pause" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <h2 class="pombagira-item__name">Cigana</h2>
+        <audio id="audio-cigana" src="audio/cigana.mp3" preload="none"></audio>
+      </article>
+
+      <article class="pombagira-item">
+        <div class="pombagira-item__media">
+          <img src="img/siete_saias.jpg" alt="Siete Saias" class="pombagira-item__img">
+          <button
+            class="play-btn"
+            type="button"
+            data-audio="siete_saias"
+            aria-pressed="false"
+            aria-label="Reproducir punto de Siete Saias">
+            <svg class="play-btn__icon play-btn__icon--play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            <svg class="play-btn__icon play-btn__icon--pause" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+        <h2 class="pombagira-item__name">Siete Saias</h2>
+        <audio id="audio-siete_saias" src="audio/siete_saias.mp3" preload="none"></audio>
+      </article>
+
+    </div>
+  </section>
+
+  <script src="js/pombagira.js"></script>
+</body>
+</html>
